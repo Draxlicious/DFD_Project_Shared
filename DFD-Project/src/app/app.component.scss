@@ -1,0 +1,28 @@
+
+.top-banner{
+    background-image: url("../assets/img/dfd-banner.jpeg");
+    position: absolute;
+    top:0;
+    right:0;
+    background-size: 100%;
+    background-position: 50% 19%;
+    width:100%;
+}
+.top-title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(72, 72, 185);
+}
+
+
+
+
+
+svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+  }
