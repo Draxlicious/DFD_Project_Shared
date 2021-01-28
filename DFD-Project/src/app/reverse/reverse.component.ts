@@ -24,7 +24,7 @@ export class ReverseComponent implements OnInit {
     // let inputElement = document.querySelector(".inputElement")
     // console.log(inputElement);
     let spanElement = document.querySelector(".rewords")
-    spanElement.innerHTML = `Hello ${ this.data.split("").reverse().join("") }`
+    spanElement.innerHTML = ` ${ this.data.split("").reverse().join("") }`
     this.data = ""
 
   }

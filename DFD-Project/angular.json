@@ -32,7 +32,8 @@
             ],
             "scripts": [
               "src/assets/js/index.js",
-              "src/app/fizzbuzz/fizzbuzz.js"
+              "src/app/fizzbuzz/fizzbuzz.js",
+              "src/app/recipe/recipe.js"
             ]
           },
           "configurations": {
@@ -68,7 +69,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "DFD-Project:build"
+            "browserTarget": "DFD-Project:build",
+            "proxyConfig": "src/proxy.conf.json"
           },
           "configurations": {
             "production": {

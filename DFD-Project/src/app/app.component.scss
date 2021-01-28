@@ -1,4 +1,4 @@
-
+$primaryColor: #0099cc;
 .top-banner{
     background-image: url("../assets/img/dfd-banner.jpeg");
     background-size: 100%;
@@ -11,11 +11,23 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    color:rgb(72, 72, 185);
+    color:$primaryColor;
+    margin-top: 69px;
 }
 
+.cards-container{
+    display:flex;
+    justify-content: space-evenly;
+    border:1px solid $primaryColor;
+    height:500px;
+    margin:50px;
+    text-align: center;
+}
 
-
+.direction{
+    display: flex;
+    flex-direction: column;
+}
 
 
 svg#clouds {

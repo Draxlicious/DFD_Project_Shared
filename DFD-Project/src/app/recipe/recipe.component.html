@@ -1,1 +1,10 @@
-<p>recipe works!</p>
+<h2 class="heading">recipe</h2>
+
+<button class="btn">Get recipe!</button>
+
+<ul *ngIf="recipes">
+	<li *ngFor="let recipe of recipes"></li>
+	<p class="name"> {{ recipe.title }} </p>
+    <p class="ingredients"> {{ recipe.ingredients }} </p>
+    <img class="thumbs" src="{{ recipe.thumbnail }}">
+</ul>

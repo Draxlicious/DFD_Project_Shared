@@ -1,0 +1,33 @@
+$primaryColor: #0099cc;
+
+.heading{
+    color: $primaryColor
+}
+.btn{
+    padding: 1em;
+    background-color:$primaryColor;
+    color:white;
+    border:none;
+    margin: 0.5em 0;
+}
+
+.btn:hover{
+    background-color:$primaryColor;
+    opacity:0.8;
+}
+
+.inputElement{
+    border: 1px solid $primaryColor;
+    padding:1em;
+    transition: padding 1s;
+}
+.inputElement:focus{
+    border: 5px solid $primaryColor;
+    padding:2em;
+}
+
+.rewords{
+    color:$primaryColor;
+    margin-top:50px;
+    font-size: 24px;
+}
