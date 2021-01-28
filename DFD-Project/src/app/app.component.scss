@@ -1,12 +1,11 @@
 
 .top-banner{
     background-image: url("../assets/img/dfd-banner.jpeg");
-    position: absolute;
-    top:0;
-    right:0;
     background-size: 100%;
     background-position: 50% 19%;
-    width:100%;
+    width: 100%;
+    height: 56px;
+    padding: 0.5em 0;
 }
 .top-title{
     display:flex;
